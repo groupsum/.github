@@ -33,6 +33,16 @@ ssot-registry init . --repo-id repo:example --repo-name "Example" --version 0.1.
 ssot-registry validate . --write-report
 ```
 
+### Governance Packs
+
+Groupsum publishes installable SSOT Registry governance packs for teams that want reusable ADR and SPEC starting points without copying policy language by hand.
+
+- [seo-aeo-aieo-governance-pack](https://github.com/groupsum/seo-aeo-aieo-governance-pack) supplies governed SEO, AEO, and AiEO decision/specification templates for search, answer-engine, and AI-engine optimization work.
+- [cache-freshness-governance-pack](https://github.com/groupsum/cache-freshness-governance-pack) supplies HTTP caching and freshness governance templates for cache-control, ETag, CDN, invalidation, and stale-content policy surfaces.
+- [digital-signature-governance-pack](https://github.com/groupsum/digital-signature-governance-pack) supplies digital-signature, electronic-signature, timestamping, validation, archival, and assurance-language governance templates.
+
+Each pack is packaged as a Python project, supports Python 3.10 through 3.14, and is designed to synchronize reusable ADR/SPEC assets into downstream `.ssot` registries.
+
 ### markdown_workspace
 
 `markdown_workspace` contains MdWrk, a multi-package markdown platform covering web client delivery, native app shells, reusable packages, extension contracts, first-party extensions, third-party extension distribution tooling, and repository operations.
@@ -61,4 +71,7 @@ npm run ci:governance
 
 - Organization: [github.com/groupsum](https://github.com/groupsum)
 - SSOT registry: [github.com/groupsum/ssot-registry](https://github.com/groupsum/ssot-registry)
+- SEO/AEO/AiEO governance pack: [github.com/groupsum/seo-aeo-aieo-governance-pack](https://github.com/groupsum/seo-aeo-aieo-governance-pack)
+- Cache freshness governance pack: [github.com/groupsum/cache-freshness-governance-pack](https://github.com/groupsum/cache-freshness-governance-pack)
+- Digital signature governance pack: [github.com/groupsum/digital-signature-governance-pack](https://github.com/groupsum/digital-signature-governance-pack)
 - MdWrk workspace: [github.com/groupsum/markdown_workspace](https://github.com/groupsum/markdown_workspace)
