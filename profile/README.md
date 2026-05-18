@@ -41,6 +41,25 @@ Groupsum publishes installable SSOT Registry governance packs for teams that wan
 - [cache-freshness-governance-pack](https://github.com/groupsum/cache-freshness-governance-pack) supplies HTTP caching and freshness governance templates for cache-control, ETag, CDN, invalidation, and stale-content policy surfaces.
 - [digital-signature-governance-pack](https://github.com/groupsum/digital-signature-governance-pack) supplies digital-signature, electronic-signature, timestamping, validation, archival, and assurance-language governance templates.
 
+Digital analytics, customer data, attribution, privacy, and advertising governance packs:
+
+- [ad-measurement-media-governance-pack](https://github.com/groupsum/ad-measurement-media-governance-pack) supplies advertising and media measurement templates for OpenRTB, AdCOM, VAST, OMID, IAB measurement guidance, MRC controls, invalid traffic, and reporting policy.
+- [ad-supply-chain-transparency-governance-pack](https://github.com/groupsum/ad-supply-chain-transparency-governance-pack) supplies supply-chain transparency templates for ads.txt, app-ads.txt, sellers.json, SupplyChain Object, buyers.json, DemandChain Object, and ads.cert.
+- [audience-data-transparency-governance-pack](https://github.com/groupsum/audience-data-transparency-governance-pack) supplies audience-data transparency templates for IAB data transparency, audience taxonomy, content taxonomy, segment provenance, recency, permitted use, and clean-room outputs.
+- [consent-privacy-signals-governance-pack](https://github.com/groupsum/consent-privacy-signals-governance-pack) supplies consent and privacy signal templates for GPC, TCF, consent mode, opt-out handling, privacy preference propagation, and jurisdiction-aware collection controls.
+- [customer-commerce-semantics-governance-pack](https://github.com/groupsum/customer-commerce-semantics-governance-pack) supplies customer and commerce semantics templates for schema.org, GS1 identifiers, product entities, offer metadata, order events, and retail/customer data modeling.
+- [customer-identity-profile-governance-pack](https://github.com/groupsum/customer-identity-profile-governance-pack) supplies customer identity and profile templates for identifier governance, profile stitching, resolution policy, account linking, consent-aware identity use, and profile lifecycle controls.
+- [data-catalog-lineage-contracts-governance-pack](https://github.com/groupsum/data-catalog-lineage-contracts-governance-pack) supplies data catalog and lineage contract templates for dataset ownership, field definitions, lineage records, transformation provenance, data quality, and evidence retention.
+- [event-behavioral-telemetry-governance-pack](https://github.com/groupsum/event-behavioral-telemetry-governance-pack) supplies event and behavioral telemetry templates for event naming, payload contracts, user actions, session context, timestamps, identifiers, and validation evidence.
+- [ga4-google-tagging-governance-pack](https://github.com/groupsum/ga4-google-tagging-governance-pack) supplies GA4 and Google tagging templates for event models, recommended events, parameters, Google tag deployment, consent mode, ecommerce events, and export expectations.
+- [gs1-product-link-event-data-governance-pack](https://github.com/groupsum/gs1-product-link-event-data-governance-pack) supplies GS1 product link and event data templates for Digital Link, product identifiers, EPCIS-style event data, supply-chain context, and traceability records.
+- [marketing-attribution-conversion-governance-pack](https://github.com/groupsum/marketing-attribution-conversion-governance-pack) supplies marketing attribution and conversion templates for campaign identifiers, conversion events, attribution windows, deduplication, offline conversions, and reporting controls.
+- [mobile-install-attribution-governance-pack](https://github.com/groupsum/mobile-install-attribution-governance-pack) supplies mobile install attribution templates for app install measurement, SKAdNetwork, Android attribution, deferred deep links, campaign parameters, and privacy-preserving attribution.
+- [privacy-governance-records-governance-pack](https://github.com/groupsum/privacy-governance-records-governance-pack) supplies privacy governance record templates for notices, lawful basis, consent records, data subject rights, retention, privacy evidence, and regulatory accountability.
+- [url-query-attribution-foundations-governance-pack](https://github.com/groupsum/url-query-attribution-foundations-governance-pack) supplies URL query attribution templates for UTM parameters, query parsing, canonical campaign fields, redirect handling, referrer interaction, and attribution evidence.
+- [web-app-analytics-governance-pack](https://github.com/groupsum/web-app-analytics-governance-pack) supplies web and app analytics templates for page views, screen views, sessions, engagement, ecommerce, data layers, client/server collection, and export validation.
+- [web-performance-rum-governance-pack](https://github.com/groupsum/web-performance-rum-governance-pack) supplies web performance and RUM templates for Core Web Vitals, Navigation Timing, Resource Timing, long tasks, performance observers, and real-user measurement evidence.
+
 Each pack is packaged as a Python project, supports Python 3.10 through 3.14, and is designed to synchronize reusable ADR/SPEC assets into downstream `.ssot` registries.
 
 ### markdown_workspace
@@ -74,4 +93,21 @@ npm run ci:governance
 - SEO/AEO/AiEO governance pack: [github.com/groupsum/seo-aeo-aieo-governance-pack](https://github.com/groupsum/seo-aeo-aieo-governance-pack)
 - Cache freshness governance pack: [github.com/groupsum/cache-freshness-governance-pack](https://github.com/groupsum/cache-freshness-governance-pack)
 - Digital signature governance pack: [github.com/groupsum/digital-signature-governance-pack](https://github.com/groupsum/digital-signature-governance-pack)
+- Digital analytics and customer data governance packs:
+  [ad measurement](https://github.com/groupsum/ad-measurement-media-governance-pack),
+  [ad supply chain](https://github.com/groupsum/ad-supply-chain-transparency-governance-pack),
+  [audience data](https://github.com/groupsum/audience-data-transparency-governance-pack),
+  [consent privacy signals](https://github.com/groupsum/consent-privacy-signals-governance-pack),
+  [customer commerce semantics](https://github.com/groupsum/customer-commerce-semantics-governance-pack),
+  [customer identity profile](https://github.com/groupsum/customer-identity-profile-governance-pack),
+  [data catalog lineage contracts](https://github.com/groupsum/data-catalog-lineage-contracts-governance-pack),
+  [event behavioral telemetry](https://github.com/groupsum/event-behavioral-telemetry-governance-pack),
+  [GA4 Google tagging](https://github.com/groupsum/ga4-google-tagging-governance-pack),
+  [GS1 product link event data](https://github.com/groupsum/gs1-product-link-event-data-governance-pack),
+  [marketing attribution conversion](https://github.com/groupsum/marketing-attribution-conversion-governance-pack),
+  [mobile install attribution](https://github.com/groupsum/mobile-install-attribution-governance-pack),
+  [privacy governance records](https://github.com/groupsum/privacy-governance-records-governance-pack),
+  [URL query attribution foundations](https://github.com/groupsum/url-query-attribution-foundations-governance-pack),
+  [web app analytics](https://github.com/groupsum/web-app-analytics-governance-pack), and
+  [web performance RUM](https://github.com/groupsum/web-performance-rum-governance-pack)
 - MdWrk workspace: [github.com/groupsum/markdown_workspace](https://github.com/groupsum/markdown_workspace)
