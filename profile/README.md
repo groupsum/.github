@@ -48,6 +48,11 @@ Groupsum publishes installable SSOT Registry governance packs for teams that wan
 - [privacy-governance-records-governance-pack](https://github.com/groupsum/privacy-governance-records-governance-pack) supplies privacy governance record templates for notices, lawful basis, consent records, data subject rights, retention, privacy evidence, and regulatory accountability.
 - [data-catalog-lineage-contracts-governance-pack](https://github.com/groupsum/data-catalog-lineage-contracts-governance-pack) supplies data catalog and lineage contract templates for dataset ownership, field definitions, lineage records, transformation provenance, data quality, and evidence retention.
 
+#### Credentials And Decentralized Identity
+
+- [verifiable-credentials-governance-pack](https://github.com/groupsum/verifiable-credentials-governance-pack) supplies W3C Verifiable Credentials governance templates for credential data models, presentations, securing mechanisms, status models, schemas, cryptosuite profiles, and adjacent issuance/presentation protocols.
+- [decentralized-identifiers-governance-pack](https://github.com/groupsum/decentralized-identifiers-governance-pack) supplies Decentralized Identifiers governance templates for DID Core, DID documents, DID URLs, DID resolution, DID methods, domain linkage, DIDComm adjacency, and optional VC/OpenID4VC integration.
+
 #### Digital Analytics And Behavioral Telemetry
 
 - [web-app-analytics-governance-pack](https://github.com/groupsum/web-app-analytics-governance-pack) supplies web and app analytics templates for page views, screen views, sessions, engagement, ecommerce, data layers, client/server collection, and export validation.
@@ -103,6 +108,8 @@ npm run ci:governance
   [discovery and content](https://github.com/groupsum/seo-aeo-aieo-governance-pack),
   [cache freshness](https://github.com/groupsum/cache-freshness-governance-pack),
   [digital signature](https://github.com/groupsum/digital-signature-governance-pack),
+  [verifiable credentials](https://github.com/groupsum/verifiable-credentials-governance-pack),
+  [decentralized identifiers](https://github.com/groupsum/decentralized-identifiers-governance-pack),
   [privacy records](https://github.com/groupsum/privacy-governance-records-governance-pack),
   [data catalog lineage](https://github.com/groupsum/data-catalog-lineage-contracts-governance-pack),
   [web app analytics](https://github.com/groupsum/web-app-analytics-governance-pack),
