@@ -50,6 +50,8 @@ Groupsum publishes installable SSOT Registry governance packs for teams that wan
 
 #### Credentials And Decentralized Identity
 
+- [authentication-governance-pack](https://github.com/groupsum/authentication-governance-pack) supplies authentication governance templates for NIST SP 800-63-4 digital identity assurance, IAL, AAL, FAL, WebAuthn/FIDO authenticators, OIDC authentication claims, sessions, recovery, and authentication evidence.
+- [authorization-policy-governance-pack](https://github.com/groupsum/authorization-policy-governance-pack) supplies authorization policy templates for OAuth scopes, access-token validation, permissions, entitlements, RBAC, ABAC, PBAC, ReBAC, PDP/PEP architecture, policy gateways, Cedar, OPA/Rego, XACML vocabulary, and authorization evidence.
 - [verifiable-credentials-governance-pack](https://github.com/groupsum/verifiable-credentials-governance-pack) supplies W3C Verifiable Credentials governance templates for credential data models, presentations, securing mechanisms, status models, schemas, cryptosuite profiles, and adjacent issuance/presentation protocols.
 - [decentralized-identifiers-governance-pack](https://github.com/groupsum/decentralized-identifiers-governance-pack) supplies Decentralized Identifiers governance templates for DID Core, DID documents, DID URLs, DID resolution, DID methods, domain linkage, DIDComm adjacency, and optional VC/OpenID4VC integration.
 
@@ -108,6 +110,8 @@ npm run ci:governance
   [discovery and content](https://github.com/groupsum/seo-aeo-aieo-governance-pack),
   [cache freshness](https://github.com/groupsum/cache-freshness-governance-pack),
   [digital signature](https://github.com/groupsum/digital-signature-governance-pack),
+  [authentication](https://github.com/groupsum/authentication-governance-pack),
+  [authorization policy](https://github.com/groupsum/authorization-policy-governance-pack),
   [verifiable credentials](https://github.com/groupsum/verifiable-credentials-governance-pack),
   [decentralized identifiers](https://github.com/groupsum/decentralized-identifiers-governance-pack),
   [privacy records](https://github.com/groupsum/privacy-governance-records-governance-pack),
